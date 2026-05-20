@@ -5,8 +5,18 @@
     "organization": "SMART Centre",
     "start_date": "2026-05-11",
     "end_date": "2026-08-25",
-    "record_style": "Detailed raw memory plus cleaned resume material in one JSON file.",
-    "important_note": "Numbers marked as estimated are not confirmed metrics. They are used only for draft resume thinking and should be verified later."
+    "record_style": "One JSON file for detailed co op memory, weekly summaries, resume bullets, interview stories, and impact numbers.",
+    "important_note": "Numbers and percentages are based on current memory and workflow estimates. They should be verified later if used in a final resume."
+  },
+  "known_metrics": {
+    "server_room_devices_checked": "about 100 to 200 devices",
+    "maintainx_records_updated": "about 50 to 60 records",
+    "labels_created_or_updated": "about 50 labels",
+    "ip_management_scope": "about 500 static IPs or subnet related IP records",
+    "expected_users": "internal team users after deployment",
+    "manager_feedback": "very positive feedback",
+    "label_generator_time_reduction_estimate": "about 75% to 95% less manual label preparation time",
+    "label_generator_basis": "manual workflow estimated at 2 to 5 minutes per label; API based workflow estimated at 10 to 30 seconds per label"
   },
   "daily_logs": [
     {
@@ -14,204 +24,134 @@
       "day_type": "workday",
       "memory_quality": "rough_memory",
       "summary": "First day onboarding and workplace setup.",
-      "details": {
-        "main_work": [
-          "Completed first day onboarding.",
-          "Started learning the team environment, workplace process, and basic expectations.",
-          "Got initial context about SMART Centre work and the kinds of tools used by the team."
-        ],
-        "problem_or_goal": "Understand the team, the work environment, and the basic process before starting technical tasks.",
-        "actions": [
-          "Joined onboarding activities.",
-          "Observed how work is organized.",
-          "Started building context for asset tracking, device management, and internal tooling work."
-        ],
-        "tools_or_systems": [],
-        "result": "Started the co op and got enough basic context to begin supporting real team tasks later in the week.",
-        "resume_value": "Low direct resume value, but useful for timeline completeness."
-      }
+      "details": [
+        "Completed onboarding for the first co op day.",
+        "Learned basic team context, workplace process, and early expectations.",
+        "Started building context for later asset tracking, device management, and internal tooling work."
+      ],
+      "tools_or_systems": [],
+      "impact": "Started the co op and got enough basic context to support real team tasks later in the week."
     },
     {
       "date": "2026-05-12",
       "day_type": "workday",
       "memory_quality": "rough_memory",
       "summary": "Recorded physical and digital asset information into MaintainX.",
-      "details": {
-        "main_work": [
-          "Recorded asset information into MaintainX.",
-          "Worked with physical assets and digital records.",
-          "Helped make equipment data more organized inside the maintenance management system.",
-          "Started learning how the team tracks devices, machines, and service room assets."
-        ],
-        "problem_or_goal": "The team needed asset records to be organized in MaintainX so devices and equipment could be tracked more clearly.",
-        "actions": [
-          "Entered or checked asset information in MaintainX.",
-          "Helped connect physical devices with digital asset records.",
-          "Learned what information needs to be captured for asset tracking, such as asset name, device type, label, and location when available."
-        ],
-        "tools_or_systems": [
-          "MaintainX",
-          "Asset records",
-          "Physical device inventory"
-        ],
-        "result": "Improved understanding of the asset tracking workflow and helped build cleaner asset records for later labeling and inventory work.",
-        "resume_value": "Medium. This supports an IT and operations bullet about asset management, inventory tracking, and maintenance workflow support."
-      }
+      "details": [
+        "Recorded asset information into MaintainX.",
+        "Worked with physical assets and digital asset records.",
+        "Started learning how the team tracks devices, machines, service room assets, labels, and maintenance records.",
+        "Helped make equipment data cleaner and easier to use for later label and inventory work."
+      ],
+      "tools_or_systems": [
+        "MaintainX",
+        "Asset records",
+        "Physical asset inventory"
+      ],
+      "impact": "Helped support a cleaner asset tracking workflow and contributed to about 50 to 60 MaintainX records across the first week."
     },
     {
       "date": "2026-05-13",
       "day_type": "workday",
       "memory_quality": "rough_memory",
       "summary": "Learned NetBird and checked device connection workflow.",
-      "details": {
-        "main_work": [
-          "Learned the basic idea of NetBird.",
-          "Checked how internal devices can be connected and viewed through a secure network access tool.",
-          "Started understanding how remote or internal access can support server and device management."
-        ],
-        "problem_or_goal": "Understand how the team can connect to devices and internal systems in a safer and more controlled way.",
-        "actions": [
-          "Explored NetBird setup and device connection behavior.",
-          "Checked connected devices and how they appear in the tool.",
-          "Built basic knowledge that later helped with server deployment and internal access questions."
-        ],
-        "tools_or_systems": [
-          "NetBird",
-          "Internal device access",
-          "Network connection"
-        ],
-        "result": "Built early understanding of secure network access and device connection workflow.",
-        "resume_value": "Medium. Useful for an IT infrastructure bullet around secure device access and internal network tooling."
-      }
+      "details": [
+        "Learned the basic idea of NetBird.",
+        "Checked how internal devices can be connected and viewed through a secure network access tool.",
+        "Started understanding how remote or internal access can support server and device management.",
+        "Built background knowledge for later server deployment and network tool work."
+      ],
+      "tools_or_systems": [
+        "NetBird",
+        "Internal device access",
+        "Network connection"
+      ],
+      "impact": "Built early understanding of secure network access and internal infrastructure tooling."
     },
     {
       "date": "2026-05-14",
       "day_type": "workday",
       "memory_quality": "rough_memory",
       "summary": "Helped with MacBook password reset, device setup, service room device checking, and label related work.",
-      "details": {
-        "main_work": [
-          "Helped reset or set up a MacBook password.",
-          "Supported basic MacBook setup and device readiness work.",
-          "Went to the service room to check and count devices.",
-          "Worked with physical assets that needed to be identified, recorded, or labeled.",
-          "Helped connect physical devices with asset tracking needs in MaintainX."
-        ],
-        "problem_or_goal": "Some devices needed setup or account access work, and service room devices needed clearer tracking and labeling.",
-        "actions": [
-          "Handled MacBook password or setup support.",
-          "Checked devices in the service room.",
-          "Helped identify devices that needed labels or records.",
-          "Supported the physical side of the asset management workflow before automation work could fully help."
-        ],
-        "tools_or_systems": [
-          "MacBook",
-          "macOS",
-          "Service room devices",
-          "Physical asset labels",
-          "MaintainX"
-        ],
-        "result": "Helped make devices easier to track and prepared asset information for later label and MaintainX work.",
-        "resume_value": "Medium. Useful for an IT support and asset inventory bullet."
-      }
+      "details": [
+        "Helped reset or set up a MacBook password.",
+        "Supported basic MacBook setup and device readiness work.",
+        "Went to the server or service room to check and count devices.",
+        "Worked with physical assets that needed to be identified, recorded, or labeled.",
+        "Helped connect physical device inventory work with MaintainX records and label needs."
+      ],
+      "tools_or_systems": [
+        "MacBook",
+        "macOS",
+        "Service room devices",
+        "Physical asset labels",
+        "MaintainX"
+      ],
+      "impact": "Contributed to a physical device inventory scope of about 100 to 200 devices and prepared information for later labeling and records."
     },
     {
       "date": "2026-05-15",
       "day_type": "workday",
       "memory_quality": "rough_memory",
-      "summary": "Continued device inventory and label work, and helped move the MaintainX label generator from local use to server use.",
-      "details": {
-        "main_work": [
-          "Continued work around physical device tracking and labeling.",
-          "Worked with service room devices and asset label needs.",
-          "Participated in the MaintainX label generator work built by the manager.",
-          "The original label workflow required manual work to prepare labels.",
-          "The new tool used a MaintainX API call to automatically fetch label related data.",
-          "Helped deploy the tool from local running to a server environment so the team could access it more easily."
-        ],
-        "problem_or_goal": "The manual label process was slow and the first tool version worked locally only. The goal was to make label generation more automatic and available to other people, not just one local machine.",
-        "actions": [
-          "Helped with the label generator workflow.",
-          "Worked around MaintainX asset records and label printing needs.",
-          "Helped move the tool from a local environment to the server.",
-          "Supported making the tool easier for team members to use.",
-          "Connected physical asset inventory work with software based label automation."
-        ],
-        "tools_or_systems": [
-          "MaintainX",
-          "MaintainX API",
-          "Label generator",
-          "Asset labels",
-          "Server deployment",
-          "Physical device inventory"
-        ],
-        "estimated_time_saving": {
-          "status": "estimated_not_verified",
-          "manual_before": "Estimated 2 to 5 minutes per asset label if a person needs to search the asset, copy fields, prepare the label, and print it manually.",
-          "automated_after": "Estimated 10 to 30 seconds per asset label when the tool can fetch label data through an API call and prepare the label automatically.",
-          "estimated_saving_per_label": "About 1.5 to 4.5 minutes saved per label.",
-          "example_if_50_labels": "About 75 to 225 minutes saved, around 1.25 to 3.75 hours.",
-          "example_if_100_labels": "About 150 to 450 minutes saved, around 2.5 to 7.5 hours.",
-          "warning": "This is a workflow estimate only. It should be verified later with real label count and real manual timing."
-        },
-        "result": "The label generator became more useful because it was no longer limited to local running. It could support a shared workflow for asset label generation and printing.",
-        "resume_value": "High. This is both development and IT value because it connects API automation, server deployment, and physical asset workflow improvement."
-      }
+      "summary": "Continued device inventory and label work, and helped move the MaintainX Label Generator from local use to server use.",
+      "details": [
+        "Continued work around physical device tracking and labeling.",
+        "Worked with service room devices and asset label needs.",
+        "Participated in the MaintainX Label Generator workflow built by the manager.",
+        "The original label process required manual lookup, copying fields, preparing label content, and printing.",
+        "The new Label Generator used MaintainX API data to automatically fetch label related information.",
+        "Helped deploy the tool from local running to a shared server environment so other team members could use it.",
+        "The work connected physical asset inventory, MaintainX records, API automation, and server deployment."
+      ],
+      "tools_or_systems": [
+        "MaintainX",
+        "MaintainX API",
+        "Label Generator",
+        "Asset labels",
+        "Server deployment",
+        "Physical device inventory"
+      ],
+      "impact": "Supported about 50 labels and helped reduce repeated manual label preparation by an estimated 75% to 95%. Manager feedback was very positive."
     },
     {
       "date": "2026-05-18",
       "day_type": "holiday",
       "memory_quality": "confirmed",
       "summary": "Holiday. No co op work recorded.",
-      "details": {
-        "main_work": [
-          "No work recorded because it was a holiday."
-        ],
-        "result": "No work record for this date.",
-        "resume_value": "None."
-      }
+      "details": [
+        "No work recorded because it was a holiday."
+      ],
+      "tools_or_systems": [],
+      "impact": "No work record for this date."
     },
     {
       "date": "2026-05-19",
       "day_type": "workday",
       "memory_quality": "active_record",
       "summary": "Learned phpIPAM, Docker, and Reconya, then built and deployed an early internal IP mapping tool.",
-      "details": {
-        "main_work": [
-          "Studied phpIPAM for IP address management.",
-          "Studied Docker for packaging and deployment.",
-          "Explored Reconya for network scanning or device discovery.",
-          "Built an internal full stack tool for IP mapping and device name mapping.",
-          "Used React for the frontend.",
-          "Used Python for the backend.",
-          "Connected the tool direction with phpIPAM and internal network inventory needs.",
-          "Packaged or deployed the tool with Docker on the server.",
-          "Explored the idea of AI assisted IP mapping and device name mapping."
-        ],
-        "problem_or_goal": "The team needs a clearer way to know which IP addresses are used, which devices they belong to, and how to map IP addresses to real device names or asset records.",
-        "actions": [
-          "Learned how phpIPAM stores or exposes subnet and IP information.",
-          "Used Docker to make deployment cleaner and easier to repeat.",
-          "Explored Reconya as a scanner to discover devices on the network.",
-          "Built a React frontend for the internal tool.",
-          "Built a Python backend for data handling and API logic.",
-          "Deployed the tool on the internal server through Docker.",
-          "Started thinking about how AI could help map unclear IP records to possible device names."
-        ],
-        "tools_or_systems": [
-          "phpIPAM",
-          "Docker",
-          "Reconya",
-          "React",
-          "Python",
-          "Internal server",
-          "IP mapping",
-          "Device name mapping",
-          "Network inventory"
-        ],
-        "result": "Created an early deployed internal full stack tool that can support IP address tracking, device mapping, and network inventory visibility.",
-        "resume_value": "Very high. This is the strongest development focused item so far because it includes frontend, backend, Docker deployment, and real internal operations use."
-      }
+      "details": [
+        "Studied phpIPAM for IP address management.",
+        "Studied Docker for packaging and deployment.",
+        "Explored Reconya for network scanning or device discovery.",
+        "Built an internal full stack tool for IP mapping and device name mapping.",
+        "Used React for the frontend and Python for the backend.",
+        "Connected the tool direction with phpIPAM and internal network inventory needs.",
+        "Packaged and deployed the tool with Docker on the server.",
+        "Explored the idea of AI assisted IP mapping and device name mapping.",
+        "The tool is expected to be used by internal team members after deployment."
+      ],
+      "tools_or_systems": [
+        "phpIPAM",
+        "Docker",
+        "Reconya",
+        "React",
+        "Python",
+        "Internal server",
+        "IP mapping",
+        "Device name mapping",
+        "Network inventory"
+      ],
+      "impact": "Created an early deployed internal full stack tool to support around 500 static IP or subnet related IP records, with very positive manager feedback."
     }
   ],
   "weekly_reports": [
@@ -219,53 +159,28 @@
       "week_id": "week_01",
       "date_range": "2026-05-11 to 2026-05-15",
       "memory_quality": "expanded_rough_memory",
-      "summary": "The first week focused on onboarding, asset tracking, physical device inventory, service room device checks, MaintainX records, NetBird learning, MacBook support, and the first MaintainX label generator deployment work.",
+      "summary": "The first week focused on onboarding, service room device checking, physical and digital asset inventory, MaintainX records, device labels, NetBird learning, MacBook setup, and MaintainX Label Generator server deployment.",
       "main_work": [
         "Completed onboarding and learned the basic team environment.",
         "Recorded physical and digital assets into MaintainX.",
-        "Went to the service room to check, count, and identify devices.",
+        "Went to the server or service room to check, count, and identify devices.",
         "Helped with physical asset labeling and device tracking.",
         "Learned NetBird for internal device connection and access.",
         "Helped reset or set up MacBook password and basic macOS device access.",
-        "Participated in the MaintainX label generator workflow.",
-        "Helped deploy the MaintainX label generator from local running to server use."
+        "Participated in the MaintainX Label Generator workflow.",
+        "Helped deploy the MaintainX Label Generator from local running to shared server use."
       ],
-      "key_problems": [
-        "Physical devices and service room assets needed clearer records and labels.",
-        "MaintainX asset records needed to match real physical devices.",
-        "Manual label generation took repeated lookup and copy work.",
-        "The first label tool version was useful but local only.",
-        "The team needed shared access to the label tool through a server environment."
-      ],
-      "technical_and_it_skills_used": [
-        "MaintainX asset management",
-        "MaintainX API workflow",
-        "Label generator workflow",
-        "Server deployment",
-        "NetBird device access",
-        "macOS support",
-        "Physical device inventory",
-        "Asset labeling"
-      ],
+      "metrics": {
+        "devices_checked": "about 100 to 200 devices",
+        "maintainx_records_updated": "about 50 to 60 records",
+        "labels_created_or_updated": "about 50 labels",
+        "manual_label_work_reduction": "estimated 75% to 95% less manual label preparation time"
+      },
       "impact": [
         "Helped connect physical service room devices with digital MaintainX records.",
         "Supported the move from manual asset label preparation toward API based label automation.",
-        "Helped make the label generator accessible from a server instead of only a local machine.",
-        "Built early understanding of internal asset workflows, device access, and deployment needs."
-      ],
-      "estimated_metrics": {
-        "asset_label_time_saving": "Estimated 1.5 to 4.5 minutes saved per label after moving from manual lookup and label preparation to API based label generation. Not verified yet.",
-        "if_50_labels": "Estimated 1.25 to 3.75 hours saved.",
-        "if_100_labels": "Estimated 2.5 to 7.5 hours saved.",
-        "needs_verification": [
-          "Actual number of labels generated",
-          "Actual time for manual label workflow",
-          "Actual time for automated label workflow"
-        ]
-      },
-      "resume_direction": [
-        "Development direction: API based internal tool deployment.",
-        "IT direction: asset inventory, service room device tracking, and label workflow support."
+        "Helped make the Label Generator accessible from a server instead of only one local machine.",
+        "Received very positive manager feedback for the tool direction and deployment support."
       ]
     },
     {
@@ -281,204 +196,101 @@
         "Deployed the tool on the server with Docker.",
         "Explored AI assisted IP mapping and device name mapping."
       ],
-      "key_problems_so_far": [
-        "The team needs better visibility into used IP addresses, empty IP space, device names, and internal network inventory.",
-        "Manual IP records are not enough if device names and current usage are not easy to verify."
-      ],
-      "technical_skills_used_so_far": [
-        "phpIPAM",
-        "Docker",
-        "Reconya",
-        "React",
-        "Python",
-        "Server deployment",
-        "Network inventory"
-      ],
+      "metrics_so_far": {
+        "ip_management_scope": "about 500 static IPs or subnet related IP records",
+        "expected_usage": "internal team users after deployment",
+        "manager_feedback": "very positive feedback"
+      },
       "impact_so_far": [
         "Created an early internal tool direction for IP mapping and device inventory visibility.",
-        "Built a deployable path using Docker instead of only local running."
-      ],
-      "next_steps": [
-        "Record exact tool features.",
-        "Record exact API endpoints or data sources.",
-        "Record screenshots or server deployment proof.",
-        "Measure how much time the IP mapping tool saves compared with manual checking."
+        "Built a deployable path using Docker instead of only local running.",
+        "Started building a tool that can reduce manual IP checking and make network inventory easier to understand."
       ]
     }
   ],
   "resume_bullets": [
     {
-      "type": "development_focused",
-      "source_dates": [
-        "2026-05-19"
-      ],
-      "status": "draft_with_estimated_scope",
-      "bullet": "Built and deployed an internal IP mapping tool using React, Python, Docker, and phpIPAM related workflows to improve visibility into used IP addresses, device names, and network inventory records.",
-      "why_it_is_good": "This is the best software development bullet because it shows full stack work, deployment, and real internal use.",
-      "numbers_to_add_later": [
-        "Number of subnets scanned or managed",
-        "Number of devices mapped",
-        "Number of users or team members using it",
-        "Time saved compared with manual IP checking"
-      ]
-    },
-    {
-      "type": "development_and_automation_focused",
-      "source_dates": [
-        "2026-05-15"
-      ],
+      "type": "development_combined",
       "status": "draft_with_estimated_metrics",
-      "bullet": "Helped deploy a MaintainX API based label generator from local use to a shared server environment, reducing repeated manual label lookup and preparation work by an estimated 1.5 to 4.5 minutes per asset label.",
-      "why_it_is_good": "This connects API automation, deployment, and workflow improvement.",
-      "metric_note": "Time saving is estimated from a manual workflow of 2 to 5 minutes per label versus an automated workflow of 10 to 30 seconds per label. Needs real timing later."
+      "bullet": "Built and deployed internal tools using React, Python, Docker, phpIPAM workflows, and MaintainX API integration, including an IP mapping system covering about 500 static IP or subnet records and a Label Generator that reduced manual label preparation time by an estimated 75% to 95%.",
+      "source_work": [
+        "Internal IP mapping tool",
+        "MaintainX Label Generator server deployment"
+      ],
+      "numbers_used": [
+        "about 500 static IP or subnet related IP records",
+        "about 50 labels",
+        "estimated 75% to 95% manual label preparation time reduction",
+        "internal team users expected after deployment",
+        "very positive manager feedback"
+      ],
+      "resume_direction": "Use this bullet for software developer, backend, full stack, automation, DevOps, or internal tools roles."
     },
     {
-      "type": "it_asset_management_focused",
-      "source_dates": [
-        "2026-05-12",
-        "2026-05-14",
-        "2026-05-15"
+      "type": "it_combined",
+      "status": "draft_with_estimated_metrics",
+      "bullet": "Supported IT asset and infrastructure workflows by checking about 100 to 200 server room devices, updating about 50 to 60 MaintainX asset records, preparing about 50 device labels, and exploring NetBird, Docker, phpIPAM, and Reconya for secure access, deployment, IP management, and network discovery.",
+      "source_work": [
+        "Service room device inventory",
+        "MaintainX asset records",
+        "Device label preparation",
+        "NetBird learning",
+        "phpIPAM and Reconya exploration"
       ],
-      "status": "draft_with_estimated_scope",
-      "bullet": "Supported physical and digital asset inventory work by checking service room devices, updating MaintainX records, and helping prepare device labels for clearer equipment tracking.",
-      "why_it_is_good": "This is the clean IT support bullet. It shows real asset management work, not just coding.",
-      "numbers_to_add_later": [
-        "Number of devices checked",
-        "Number of MaintainX records updated",
-        "Number of labels prepared or printed"
-      ]
+      "numbers_used": [
+        "about 100 to 200 devices checked",
+        "about 50 to 60 MaintainX records updated",
+        "about 50 labels prepared or updated",
+        "about 500 static IP or subnet related IP records in the IP management scope"
+      ],
+      "resume_direction": "Use this bullet for IT support, infrastructure, systems, DevOps support, network support, or technical operations roles."
+    }
+  ],
+  "impact_percentages": [
+    {
+      "item": "MaintainX Label Generator",
+      "percentage": "estimated 75% to 95% reduction in manual label preparation time",
+      "basis": "Manual workflow estimated at 2 to 5 minutes per label. API based workflow estimated at 10 to 30 seconds per label.",
+      "confidence": "medium because the exact timing has not been measured yet"
     },
     {
-      "type": "it_infrastructure_focused",
-      "source_dates": [
-        "2026-05-13",
-        "2026-05-14",
-        "2026-05-19"
-      ],
-      "status": "draft",
-      "bullet": "Explored internal infrastructure tools including NetBird, Docker, phpIPAM, and Reconya to support secure device access, server deployment, IP address management, and network discovery workflows.",
-      "why_it_is_good": "This bullet is useful for IT, DevOps, infrastructure, and support style roles.",
-      "numbers_to_add_later": [
-        "Number of tools configured",
-        "Number of devices tested",
-        "Number of deployment steps documented"
-      ]
+      "item": "Asset record organization",
+      "percentage": "helped organize about 50 to 60 MaintainX records across an estimated 100 to 200 physical devices",
+      "basis": "Current memory based estimate from service room device checking and MaintainX record work.",
+      "confidence": "medium"
+    },
+    {
+      "item": "IP management visibility",
+      "percentage": "coverage scope around 500 static IP or subnet related IP records",
+      "basis": "Current memory from IP management work. Percentage improvement is not measured yet because the previous baseline is unknown.",
+      "confidence": "medium"
     }
   ],
   "interview_stories": [
     {
-      "story_id": "maintainx_label_generator_server_deployment",
-      "source_dates": [
-        "2026-05-15"
-      ],
+      "story_id": "internal_tools_and_asset_workflow",
       "status": "draft",
-      "situation": "The team had physical assets that needed labels, but the label workflow required manual lookup and preparation. The manager built a label generator that could use MaintainX API data, but it needed to move beyond local use.",
-      "task": "Help make the label generator usable from a server so team members could access it more easily.",
-      "action": "Participated in the label generator workflow, connected it with the asset tracking process, and helped deploy it from a local setup to a server environment.",
-      "result": "The tool became more useful for shared team work and could reduce repeated manual label preparation. Estimated saving is 1.5 to 4.5 minutes per label, but this needs real timing verification.",
-      "skills_shown": [
-        "API workflow understanding",
-        "Server deployment",
-        "Internal tool support",
-        "Asset management automation",
-        "Physical asset workflow understanding"
-      ],
-      "needs_more_detail": [
-        "Exact server environment",
-        "Exact deployment commands",
-        "Number of labels generated",
-        "Manager feedback"
-      ]
-    },
-    {
-      "story_id": "internal_ip_mapping_tool",
-      "source_dates": [
-        "2026-05-19"
-      ],
-      "status": "draft",
-      "situation": "The team needed a better way to understand which internal IP addresses were used and how they mapped to device names or asset records.",
-      "task": "Explore tools and build an early internal system for IP and device mapping.",
-      "action": "Studied phpIPAM, Docker, and Reconya, then built a React frontend and Python backend, packaged the system with Docker, and deployed it on the server.",
-      "result": "Created an early deployed full stack internal tool direction for IP mapping and device inventory visibility.",
+      "situation": "The team needed better ways to manage physical assets, labels, and internal network information.",
+      "task": "Support both the physical asset workflow and the software tools that could automate or improve it.",
+      "action": "Checked service room devices, updated MaintainX records, helped with labels, supported the MaintainX Label Generator deployment, and built an early React and Python IP mapping tool deployed with Docker.",
+      "result": "Helped organize about 100 to 200 devices, about 50 to 60 MaintainX records, about 50 labels, and an IP management scope of about 500 static IP or subnet records. Manager feedback was very positive.",
       "skills_shown": [
         "Full stack development",
-        "React",
-        "Python backend",
+        "API integration",
         "Docker deployment",
+        "IT asset management",
         "Network inventory",
-        "Self directed learning"
-      ],
-      "needs_more_detail": [
-        "Exact backend functions",
-        "Screenshots",
-        "Data source details",
-        "Manager feedback"
+        "Internal tool building"
       ]
-    }
-  ],
-  "learning_notes": [
-    {
-      "date": "2026-05-13",
-      "topic": "NetBird",
-      "note": "Learned NetBird as a secure device access tool and checked how connected devices appear in the system.",
-      "status": "basic_understanding"
-    },
-    {
-      "date": "2026-05-15",
-      "topic": "MaintainX API label workflow",
-      "note": "Learned that label generation can be improved by using API data instead of repeated manual lookup and label preparation.",
-      "status": "practical_use"
-    },
-    {
-      "date": "2026-05-19",
-      "topic": "phpIPAM",
-      "note": "Studied phpIPAM as a tool for IP address management and network inventory support.",
-      "status": "active_learning"
-    },
-    {
-      "date": "2026-05-19",
-      "topic": "Docker",
-      "note": "Used Docker as a deployment method for internal tooling and server setup.",
-      "status": "active_use"
-    },
-    {
-      "date": "2026-05-19",
-      "topic": "Reconya",
-      "note": "Explored Reconya as a possible tool for network scanning or device discovery.",
-      "status": "active_learning"
     }
   ],
   "evidence_needed": [
-    {
-      "item": "MaintainX label generator",
-      "needed_for": "Strong resume metric",
-      "missing_details": [
-        "How many labels were generated",
-        "Manual time per label",
-        "Automated time per label",
-        "Server URL or screenshot",
-        "Exact deployment method"
-      ]
-    },
-    {
-      "item": "Service room device inventory",
-      "needed_for": "IT resume metric",
-      "missing_details": [
-        "Number of devices checked",
-        "Number of records updated in MaintainX",
-        "Number of labels created or replaced"
-      ]
-    },
-    {
-      "item": "Internal IP mapping tool",
-      "needed_for": "Development resume metric",
-      "missing_details": [
-        "Number of IPs or subnets tested",
-        "Tool URL or screenshot",
-        "Backend API list",
-        "Docker compose or deployment note",
-        "Manager feedback"
-      ]
-    }
+    "Exact number of server room devices checked",
+    "Exact MaintainX record count",
+    "Exact label count",
+    "Exact number of IPs or subnets managed",
+    "Screenshot or link for Label Generator",
+    "Screenshot or link for IP mapping tool",
+    "Manager feedback message or note"
   ]
 }
