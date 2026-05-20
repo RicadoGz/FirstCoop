@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "repo_purpose": "First co op record system",
+    "role": "Research Student",
+    "organization": "SMART Centre",
+    "start_date": "2026-05-11",
+    "end_date": "2026-08-25",
+    "note": "All daily logs, weekly reports, learning notes, resume bullets, and interview stories should be stored in this single JSON file."
+  },
+  "daily_logs": [],
+  "weekly_reports": [],
+  "resume_bullets": [],
+  "interview_stories": [],
+  "learning_notes": [],
+  "evidence": []
+}
