@@ -5,12 +5,370 @@
     "organization": "SMART Centre",
     "start_date": "2026-05-11",
     "end_date": "2026-08-25",
-    "note": "All daily logs, weekly reports, learning notes, resume bullets, and interview stories should be stored in this single JSON file."
+    "note": "All daily logs, weekly reports, learning notes, resume bullets, and interview stories are stored in this single JSON file."
   },
-  "daily_logs": [],
-  "weekly_reports": [],
-  "resume_bullets": [],
-  "interview_stories": [],
-  "learning_notes": [],
-  "evidence": []
+  "daily_logs": [
+    {
+      "date": "2026-05-11",
+      "day_type": "workday",
+      "memory_quality": "rough_memory",
+      "main_work": [
+        "Completed onboarding for the first co op day."
+      ],
+      "problem_or_goal": "Understand the workplace, team context, basic tools, and early expectations.",
+      "actions": [
+        "Joined onboarding activities.",
+        "Started learning the team environment and work process."
+      ],
+      "tools_or_systems": [],
+      "result": "Started the co op and got basic context for future work.",
+      "resume_value": "Low direct resume value, but useful as the start point of the co op timeline.",
+      "next_step": "Record more concrete technical work from later days."
+    },
+    {
+      "date": "2026-05-12",
+      "day_type": "workday",
+      "memory_quality": "rough_memory",
+      "main_work": [
+        "Recorded digital or physical asset information into MaintainX.",
+        "Helped track assets in the maintenance management system."
+      ],
+      "problem_or_goal": "Improve asset tracking and make equipment records easier to manage.",
+      "actions": [
+        "Entered asset records into MaintainX.",
+        "Learned how the team uses MaintainX for asset and maintenance tracking."
+      ],
+      "tools_or_systems": [
+        "MaintainX"
+      ],
+      "result": "Built early understanding of the asset record workflow.",
+      "resume_value": "Possible support point for asset management, internal systems, and operations workflow understanding.",
+      "next_step": "Connect this asset tracking knowledge with later automation work."
+    },
+    {
+      "date": "2026-05-13",
+      "day_type": "workday",
+      "memory_quality": "rough_memory",
+      "main_work": [
+        "Learned NetBird and checked how it can connect to devices.",
+        "Explored device access and secure network connection workflow."
+      ],
+      "problem_or_goal": "Understand how internal devices can be connected and accessed through a secure network tool.",
+      "actions": [
+        "Studied NetBird basics.",
+        "Checked device connection behavior.",
+        "Started learning how device access works in the internal environment."
+      ],
+      "tools_or_systems": [
+        "NetBird"
+      ],
+      "result": "Gained initial understanding of secure device access and internal network tooling.",
+      "resume_value": "Can support resume points around internal tooling, network access, and infrastructure learning.",
+      "next_step": "Use this knowledge when deploying internal tools to the server."
+    },
+    {
+      "date": "2026-05-14",
+      "day_type": "workday",
+      "memory_quality": "rough_memory",
+      "main_work": [
+        "Helped reset and configure a MacBook password.",
+        "Worked on basic device setup and support tasks."
+      ],
+      "problem_or_goal": "Prepare or recover a MacBook so it could be used by the team.",
+      "actions": [
+        "Reset MacBook password or helped with password setup.",
+        "Handled basic device configuration work."
+      ],
+      "tools_or_systems": [
+        "MacBook",
+        "macOS"
+      ],
+      "result": "Supported device readiness for team use.",
+      "resume_value": "Low to medium resume value. Useful for showing IT support and device setup experience.",
+      "next_step": "Only keep this as background support work unless more technical details are added later."
+    },
+    {
+      "date": "2026-05-15",
+      "day_type": "workday",
+      "memory_quality": "rough_memory",
+      "main_work": [
+        "Helped continue MacBook setup and password related support.",
+        "Participated in work around a MaintainX label tool built by the manager.",
+        "Helped deploy the MaintainX label tool from local use to a server so other people could use it."
+      ],
+      "problem_or_goal": "The MaintainX label workflow was too manual and originally worked only locally. The goal was to make label generation easier and available to the team.",
+      "actions": [
+        "Participated in the MaintainX label tool development workflow.",
+        "Helped move the tool from local running to server deployment.",
+        "Supported making the tool usable by more team members."
+      ],
+      "tools_or_systems": [
+        "MaintainX",
+        "MaintainX API",
+        "Server deployment"
+      ],
+      "result": "The label tool could work from the server instead of only working locally, making it easier for team members to use.",
+      "resume_value": "High. This can become a resume bullet about deploying an internal API based tool to support asset label printing and team workflow automation.",
+      "next_step": "Later add details about the server, API flow, and label printing workflow if remembered."
+    },
+    {
+      "date": "2026-05-18",
+      "day_type": "holiday",
+      "memory_quality": "confirmed",
+      "main_work": [
+        "Holiday. No co op work recorded."
+      ],
+      "problem_or_goal": "Not applicable.",
+      "actions": [],
+      "tools_or_systems": [],
+      "result": "No work record for this date.",
+      "resume_value": "None.",
+      "next_step": "Continue record on next workday."
+    },
+    {
+      "date": "2026-05-19",
+      "day_type": "workday",
+      "memory_quality": "active_record",
+      "main_work": [
+        "Studied phpIPAM, Docker, and Reconya.",
+        "Built an internal full stack IP mapping tool.",
+        "Used React for the frontend and Python for the backend.",
+        "Used Docker to package and deploy the tool on the server.",
+        "Explored AI assisted IP mapping and device name mapping."
+      ],
+      "problem_or_goal": "The team needs a better way to map internal IP addresses to devices and names, instead of relying only on manual records.",
+      "actions": [
+        "Learned phpIPAM and checked how it can manage network IP data.",
+        "Learned Docker because phpIPAM and related tools needed a cleaner deployment path.",
+        "Explored Reconya for network scanning and device discovery.",
+        "Built an internal tool with React frontend and Python backend.",
+        "Connected the tool idea to phpIPAM data and IP mapping needs.",
+        "Deployed the tool on the server using Docker."
+      ],
+      "tools_or_systems": [
+        "phpIPAM",
+        "Docker",
+        "Reconya",
+        "React",
+        "Python",
+        "Internal server",
+        "IP mapping",
+        "Device name mapping"
+      ],
+      "result": "Created and deployed an early internal full stack tool for IP and device mapping, with a Docker based server deployment path.",
+      "resume_value": "Very high. This can become a strong resume project about building and deploying an internal network inventory tool using React, Python, Docker, and phpIPAM related workflow.",
+      "next_step": "Add exact features, API endpoints, screenshots, deployment steps, and user value after more progress."
+    }
+  ],
+  "weekly_reports": [
+    {
+      "week_id": "week_01",
+      "date_range": "2026-05-11 to 2026-05-15",
+      "memory_quality": "rough_memory",
+      "main_work": [
+        "Completed onboarding.",
+        "Recorded assets in MaintainX.",
+        "Learned NetBird for secure device connection.",
+        "Supported MacBook setup and password related work.",
+        "Participated in MaintainX label tool work and helped deploy it to a server."
+      ],
+      "key_problems": [
+        "Asset information needed to be recorded in MaintainX.",
+        "Internal devices needed a way to be accessed or connected securely.",
+        "The MaintainX label process was manual and the first version of the tool worked locally only."
+      ],
+      "technical_skills_used": [
+        "MaintainX",
+        "MaintainX API",
+        "NetBird",
+        "macOS support",
+        "Server deployment"
+      ],
+      "impact": [
+        "Built early understanding of the team asset management workflow.",
+        "Helped move an internal MaintainX label tool from local use to server use.",
+        "Supported a workflow that could make label printing easier for the team."
+      ],
+      "resume_bullet_candidates": [
+        "Supported deployment of an internal MaintainX API based label tool from local setup to server environment, improving team access to automated asset label generation.",
+        "Recorded and organized asset information in MaintainX while learning internal asset management and maintenance workflows."
+      ],
+      "next_week_focus": [
+        "Continue learning internal tools.",
+        "Work on IP mapping, internal inventory, and deployment tasks."
+      ]
+    },
+    {
+      "week_id": "week_02_partial",
+      "date_range": "2026-05-18 to 2026-05-22",
+      "memory_quality": "partial_week",
+      "main_work_so_far": [
+        "May 18 was a holiday.",
+        "On May 19, studied phpIPAM, Docker, and Reconya.",
+        "Built and deployed an early internal full stack IP mapping tool using React, Python, and Docker."
+      ],
+      "key_problems_so_far": [
+        "The team needs clearer IP address and device name mapping for the internal network."
+      ],
+      "technical_skills_used_so_far": [
+        "phpIPAM",
+        "Docker",
+        "Reconya",
+        "React",
+        "Python",
+        "Server deployment"
+      ],
+      "impact_so_far": [
+        "Created an early deployed internal tool direction for IP and device mapping."
+      ],
+      "next_steps": [
+        "Add more details for May 20 to May 22 as the week continues.",
+        "Improve IP mapping accuracy and record deployment details."
+      ]
+    }
+  ],
+  "resume_bullets": [
+    {
+      "source_dates": [
+        "2026-05-15"
+      ],
+      "status": "draft",
+      "bullet": "Supported deployment of an internal MaintainX API based label tool from local setup to server environment, improving team access to automated asset label generation.",
+      "strength": "high",
+      "needs_more_detail": [
+        "Exact server environment",
+        "Exact API flow",
+        "How many users or labels it helped"
+      ]
+    },
+    {
+      "source_dates": [
+        "2026-05-19"
+      ],
+      "status": "draft",
+      "bullet": "Built and deployed an internal full stack IP mapping tool using React, Python, Docker, and phpIPAM related workflows to support device tracking and network inventory visibility.",
+      "strength": "very_high",
+      "needs_more_detail": [
+        "Exact features",
+        "API endpoints",
+        "Deployment method",
+        "Before and after workflow",
+        "Any users or team feedback"
+      ]
+    },
+    {
+      "source_dates": [
+        "2026-05-12"
+      ],
+      "status": "draft",
+      "bullet": "Recorded and organized asset information in MaintainX to support equipment tracking and internal maintenance workflows.",
+      "strength": "medium",
+      "needs_more_detail": [
+        "Number of assets recorded",
+        "Type of assets",
+        "How the records were used"
+      ]
+    }
+  ],
+  "interview_stories": [
+    {
+      "story_id": "maintainx_label_tool_deployment",
+      "source_dates": [
+        "2026-05-15"
+      ],
+      "status": "draft",
+      "situation": "The team had a MaintainX label printing workflow that needed to be easier than manual label setup. A manager developed a tool that used API calls to get label data, but the tool needed to work beyond local use.",
+      "task": "Help make the label tool usable by the team from a server environment.",
+      "action": "Participated in the tool workflow and helped deploy it from local use to the server.",
+      "result": "The tool became easier for team members to access, supporting a more automated label generation workflow.",
+      "skills_shown": [
+        "API workflow understanding",
+        "Server deployment",
+        "Internal tool support",
+        "Operations automation"
+      ],
+      "needs_more_detail": [
+        "Exact deployment steps",
+        "Exact role in development",
+        "Team usage result"
+      ]
+    },
+    {
+      "story_id": "internal_ip_mapping_tool",
+      "source_dates": [
+        "2026-05-19"
+      ],
+      "status": "draft",
+      "situation": "The team needed a better way to understand which internal IP addresses were used and how they mapped to device names.",
+      "task": "Explore tools and build an early internal system for IP and device mapping.",
+      "action": "Studied phpIPAM, Docker, and Reconya, then built a React frontend and Python backend, packaged the system with Docker, and deployed it on the server.",
+      "result": "Created an early deployed internal full stack tool direction for IP mapping and device inventory visibility.",
+      "skills_shown": [
+        "Full stack development",
+        "React",
+        "Python backend",
+        "Docker deployment",
+        "Network inventory",
+        "Self directed learning"
+      ],
+      "needs_more_detail": [
+        "Exact backend functions",
+        "Screenshots",
+        "Data source details",
+        "Manager feedback"
+      ]
+    }
+  ],
+  "learning_notes": [
+    {
+      "date": "2026-05-13",
+      "topic": "NetBird",
+      "note": "Learned that NetBird can help with secure device connection and internal access workflow.",
+      "status": "basic_understanding"
+    },
+    {
+      "date": "2026-05-19",
+      "topic": "phpIPAM",
+      "note": "Studied phpIPAM as a tool for IP address management and network inventory support.",
+      "status": "active_learning"
+    },
+    {
+      "date": "2026-05-19",
+      "topic": "Docker",
+      "note": "Used Docker as a deployment method for internal tooling and server setup.",
+      "status": "active_use"
+    },
+    {
+      "date": "2026-05-19",
+      "topic": "Reconya",
+      "note": "Explored Reconya as a possible tool for network scanning or device discovery.",
+      "status": "active_learning"
+    }
+  ],
+  "evidence": [
+    {
+      "date": "2026-05-15",
+      "item": "MaintainX label tool server deployment",
+      "status": "needs_evidence",
+      "possible_evidence": [
+        "Server path",
+        "Screenshot",
+        "Deployment command",
+        "Manager message",
+        "Tool URL"
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "item": "Internal IP mapping tool deployment",
+      "status": "needs_evidence",
+      "possible_evidence": [
+        "GitHub code or local path",
+        "Server URL",
+        "Docker compose file",
+        "Screenshot",
+        "API response example"
+      ]
+    }
+  ]
 }
